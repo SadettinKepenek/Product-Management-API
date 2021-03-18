@@ -1,0 +1,26 @@
+﻿{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/v1/home",
+      "DownstreamScheme": "http",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/v1/product",
+      "ServiceName": "ProductManagement-API",
+      "UseServiceDiscovery": true
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5001",
+    "RequestIdKey": "OcRequestId",
+    "UseTracing": true,
+    "ServiceDiscoveryProvider": {
+      "Scheme": "http",
+      "Host": "consul",
+      "Port": 8500,
+      "Type": "Consul"
+    },
+    "DangerousAcceptAnyServerCertificateValidator": true
+  }
+}

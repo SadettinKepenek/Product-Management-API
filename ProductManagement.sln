@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagement.API", "ProductManagement.API\ProductManagement.API.csproj", "{3C6E410D-9C22-4617-8F06-3EABD527D569}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagement.Gateway", "ProductManagement.Gateway\ProductManagement.Gateway.csproj", "{D0BCD6AB-FDC6-41AE-869E-2DFC12A2C616}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C6E410D-9C22-4617-8F06-3EABD527D569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C6E410D-9C22-4617-8F06-3EABD527D569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C6E410D-9C22-4617-8F06-3EABD527D569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C6E410D-9C22-4617-8F06-3EABD527D569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0BCD6AB-FDC6-41AE-869E-2DFC12A2C616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0BCD6AB-FDC6-41AE-869E-2DFC12A2C616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0BCD6AB-FDC6-41AE-869E-2DFC12A2C616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0BCD6AB-FDC6-41AE-869E-2DFC12A2C616}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

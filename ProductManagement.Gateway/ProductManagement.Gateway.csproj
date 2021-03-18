@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+
+    <ItemGroup>
+        <PackageReference Include="Ocelot" Version="16.0.1" />
+        <PackageReference Include="Ocelot.Cache.CacheManager" Version="16.0.1" />
+        <PackageReference Include="Ocelot.Provider.Consul" Version="16.0.1" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <_ContentIncludedByDefault Remove="out\web.config" />
+        <_ContentIncludedByDefault Remove="out\api_gateway.dll.deps.json" />
+        <_ContentIncludedByDefault Remove="out\api_gateway.dll.runtimeconfig.json" />
+        <_ContentIncludedByDefault Remove="out\appsettings.Development.json" />
+        <_ContentIncludedByDefault Remove="out\appsettings.json" />
+        <_ContentIncludedByDefault Remove="out\ocelot.json" />
+    </ItemGroup>
+
+</Project>
